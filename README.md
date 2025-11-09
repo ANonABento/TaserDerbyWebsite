@@ -6,6 +6,9 @@ The TaserDerby is a high-stakes, single-player race betting application designed
 
 The application runs a simulated microscopic race. If the user's chosen racer **fails to finish within the Top X** (where X is the selected Difficulty), a specific API endpoint (`/lose`) is called on the ESP32. This triggers the relay, administering a momentary "penalty" pulse to a connected load (like a light or a low-voltage device).
 
+<img width="1919" height="992" alt="image" src="https://github.com/user-attachments/assets/9a5bb126-29f2-465a-adb6-dba7af6d6509" />
+<img width="1919" height="984" alt="image" src="https://github.com/user-attachments/assets/94e13cbd-f902-4a10-a81e-c77b07da6697" />
+
 ---
 
 ## 🚀 Features
