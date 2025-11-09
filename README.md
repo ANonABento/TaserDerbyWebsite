@@ -56,7 +56,29 @@ The application runs a simulated microscopic race. If the user's chosen racer **
     const ESP32_IP_ADDRESS = 'YOUR_ESP32_IP'; // e.g., '192.168.1.100'
     const API_LOSE_ENDPOINT = `http://${ESP32_IP_ADDRESS}/lose`; 
     ```
+    
+### Step 3: Running the Web Application
 
+This project was bootstrapped with **Vite** and uses **React** with **Tailwind CSS** classes for styling.
+
+**Prerequisites:** Node.js (v16+) and npm/yarn/pnpm must be installed.
+
+1. **Clone and Navigate:** Clone your repository and change into the project directory.
+```
+git clone https://github.com/your-username/GoonHacks.git cd GoonHacks
+```
+
+2. **Install Dependencies:** Install React, Vite, and Tailwind CSS (which is assumed to be available via configuration).
+```
+npm install
+```
+The key packages are 'react' (v18+), 'vite' (v4+), and 'tailwindcss' (v3.3.3+)
+
+
+3. **Start the Development Server:**
+```
+npm run dev
+```
 ---
 
 ## 🕹️ Usage
